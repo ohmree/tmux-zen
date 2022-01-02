@@ -1,3 +1,6 @@
+# TODO: raise some sort of error if `config`
+# (from oh-my-fish/plugin-config) isn't found.
+
 # Initialize the current fish session and connect to the tmux session.
 # If we're not running in an interactive terminal, do nothing.
 if begin; not isatty; or not status --is-interactive; or test -n "$INSIDE_EMACS"; end
